@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+#lista-carrito li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

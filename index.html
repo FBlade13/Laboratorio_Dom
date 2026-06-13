@@ -39,18 +39,93 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
                     <button
 
-                    class="btn btn-primart btn-agregar"
+                    class="btn btn-primary btn-agregar"
                     data-nombre="Audifonos"
                     data-precio="55000">
+                    Agregar
                 </button>
                 
                 </div>
             </div>
         </div>
 
+<!--Producto 2-->
+<div class="col-md-3">
+    <div class="card">
+        <div class="card-body">
+            <h3>Microfono</h3>
+            <p>$100.000</p>
 
+            <button
+                class="btn btn-primary btn-agregar"
+                data-nombre="Microfono"
+                data-precio="100000">
+                Agregar
+            </button>
         </div>
     </div>
+</div>
+
+<!--Producto 3-->
+<div class="col-md-3">
+    <div class="card">
+        <div class="card-body">
+            <h3>Camara Web</h3>
+            <p>$150.000</p>
+
+            <button
+            class="btn btn-primary btn-agregar"
+            data-nombre="Camara Web"
+            data-precio="150000">
+            Agregar
+            </button>
+        </div>
+    </div>
+</div>
+
+<!--Producto 4-->
+<div class="col-md-3">
+    <div class="card">
+        <div class="card-body">
+            <h3>Parlantes</h3>
+            <p>$120.000</p>
+
+            <button
+            class="btn btn-primary btn-agregar"
+            data-nombre="Parlantes"
+            data-precio="120000">
+            Agregar
+        </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<h2>Carrito de compras</h2>
+
+<ul id="lista-carrito" class="list-group mb-3">
+
+    <li id="msg-vacio" class="list-group-item">
+        Tu carrito está vacio
+    </li>
+
+</ul>
+
+<h4>
+    Total:
+    <span id="total">$0</span>
+</h4>
+
+<button id="btn-vaciar" class="btn btn-danger">
+    Vaciar Carrito
+</button>
+
+    </div>
+
+    <script src="app.js"></script>
 
 </body>
 </html>
